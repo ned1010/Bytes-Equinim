@@ -1,0 +1,27 @@
+/* Styling the Footer  */
+footer {
+	background-color: #2d2e27;
+}
+
+/* This is h3 element */
+h3 {
+	color: #e8e8da;
+}
+
+.flex-container{
+	display: flex; 
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+
+.flex-item{
+	text-align: left;
+}
+
+.flex-item ul{
+	list-style-type: none;
+	padding: 0;
+}
+
