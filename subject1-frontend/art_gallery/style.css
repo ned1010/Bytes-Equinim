@@ -1,9 +1,21 @@
-/* Styling the Footer  */
-footer {
+footer{
 	background-color: #2d2e27;
+	color: rgb(126, 128, 117);
 }
 
-/* This is h3 element */
-h3 {
-	color: #e8e8da;
+h3{
+	color: #e8e8da ;
 }
+
+#art-gallery-name{
+	text-align: center; 
+	color: #e8e8da; 
+	font-size: 2rem; 
+	font-weight: 900; 
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.copyright-footer{
+	text-align: center;
+}
+
