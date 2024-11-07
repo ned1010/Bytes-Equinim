@@ -15,6 +15,22 @@ h3 {
 	font-family: "Times New Roman", Times, serif;
 }
 
+/* Footer  */
 .copyright-footer {
 	text-align: center;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-around;
+	text-align: justify;
+}
+
+.footer-container ul li {
+	list-style-type: none;
+	padding: 5px 0;
+}
+
+.footer-container ul {
+	padding: 0;
 }
