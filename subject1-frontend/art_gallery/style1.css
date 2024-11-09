@@ -1,27 +1,64 @@
-/* Styling the Footer  */
-footer {
-	background-color: #2d2e27;
+body{
+	padding-top: 50px;
 }
 
-/* This is h3 element */
+footer {
+	background-color: #2d2e27;
+	color: rgb(126, 128, 117);
+}
+
 h3 {
 	color: #e8e8da;
 }
 
-.flex-container{
-	display: flex; 
-	flex-direction: row;
-	justify-content: space-between;
-	margin-right: 200px;
-	margin-left: 200px;
+#art-gallery-name {
+	text-align: center;
+	color: #e8e8da;
+	font-size: 2rem;
+	font-weight: 900;
+	font-family: "Times New Roman", Times, serif;
 }
 
-.flex-item{
-	text-align: left;
+/* Footer  */
+.copyright-footer {
+	text-align: center;
 }
 
-.flex-item ul{
+.footer-container {
+	display: flex;
+	justify-content: space-around;
+	text-align: justify;
+}
+
+.footer-container ul li {
 	list-style-type: none;
+	padding: 5px 0;
+}
+
+.footer-container ul {
 	padding: 0;
 }
 
+
+/* Nar bar styles */
+
+/* Nav bar styles */
+.navbar-list {
+	position: fixed;
+	top: 0;
+	left: 0;
+    list-style: none; /* Remove bullet points from list */
+    display: flex;    /* Make the list items align horizontally */
+	justify-content: space-evenly;
+	gap: 30px;
+}
+
+.navbar-list-item {
+    margin-right: 20px; /* Space out the list items */
+}
+
+.link{
+	text-decoration: none; /* Remove underlines from links */
+	color: black;
+	font-size: 18px;
+}
